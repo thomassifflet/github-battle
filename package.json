@@ -15,6 +15,7 @@
   "author": "Thomas Sifflet",
   "license": "MIT",
   "dependencies": {
+    "prop-types": "^15.6.0",
     "react": "^16.1.1",
     "react-dom": "^16.1.1"
   },
