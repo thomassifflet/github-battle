@@ -18,11 +18,11 @@ class App extends React.Component {
 					<Navbar />
 					<Switch>
 						<Route exact path="/" component={Home} />
-						<Route path="/popular" component={Popular} />
 						<Route exact path="/battle" component={Battle} />
+						<Route path="/popular" component={Popular} />
 						<Route path="/battle/results" component={Results} />
 						<Route
-							render={() => {
+							render={function() {
 								return (
 									<div>
 										<h1>Page introuvable :/</h1>

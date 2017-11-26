@@ -17,7 +17,7 @@ function PlayerPreview(props) {
 }
 
 PlayerPreview.propTypes = {
-	avatar: PropTypes.string.isRequired,
+	avatar: PropTypes.string,
 	username: PropTypes.string.isRequired,
 	onReset: PropTypes.func.isRequired,
 	id: PropTypes.string.isRequired
